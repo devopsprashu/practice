@@ -15,3 +15,8 @@ resource "azurerm_resource_group" "first" {
   name     = "first-rg"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "firstadd" {
+  name     = "firstadd-rg"
+  location = "West Europe"
+}
